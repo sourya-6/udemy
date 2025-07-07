@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.FRONT_END,
+  baseURL: "http://localhost:5000",
   withCredentials: true,
 });
 
