@@ -23,7 +23,7 @@ app.use(cookieParser());
 // ✅ CORS setup to allow cookies
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://www.paypal.com", "https://www.sandbox.paypal.com"],
+    origin: ["http://localhost:5173", "https://www.paypal.com", "https://www.sandbox.paypal.com", "https://udemy-l6to.onrender.com"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true, // ✅ allow cookies
   })
