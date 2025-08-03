@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: import.meta.env.VITE_BACK_END||"https://udemy-l6to.onrender.com/",
   withCredentials: true,
 });
 
